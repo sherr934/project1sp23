@@ -2,6 +2,10 @@ body {
 	font-family: "calluna", serif;
 	font-style: normal;
 }
+.container {
+	transform: rotate(90deg);
+	transform-origin: 50vw 50vh;
+}
 .items {
 	position: absolute;
 	white-space: nowrap;
