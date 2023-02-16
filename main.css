@@ -33,6 +33,7 @@ body {
 	zoom: 100%;
 	margin-left: 20%;
 	transform: rotate(180deg);
+	opacity: .6;
 }
 .item5 {
 	zoom: 400%;
@@ -57,26 +58,26 @@ body {
 	margin-top: 30%;
 }
 .item8 {
-	zoom:40%;
-	margin-top:800px;
+	zoom:50%;
+	margin-top:550px;
 }
 .item9 {
-	zoom:35%;
+	zoom:45%;
 	writing-mode: vertical-rl;
-	margin-top: 935px;
-	margin-left: 1530px;
+	margin-top: 630px;
+	margin-left: 545px;
 }
 .item10 {
-	zoom:30%;
+	zoom:40%;
 	transform: rotate(180deg);
-	margin-top: 1480px;
-	margin-left: 1470px
+	margin-top: 920px;
+	margin-left: 380px
 }
 .item11 {
-	zoom:25%;
+	zoom:35%;
 	writing-mode: vertical-rl;
 	transform: rotate(180deg);
-	margin-left: 1750px
+	margin-left: 410px
 }
 .item12 {
 	zoom: 150%;
@@ -103,7 +104,7 @@ body {
 .item15 {
 	zoom: 600%;
 	transform: rotate(180deg);
-	margin-top: 40%;
+	margin-top: 90px;
 	opacity: .4;
 }
 .item16 {
