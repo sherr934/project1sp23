@@ -4,7 +4,7 @@ body {
 }
 .container {
 	transform: rotate(90deg);
-	transform-origin: 50vw 50vh;
+	transform-origin: 100vw 100vh;
 }
 .items {
 	position: absolute;
@@ -102,7 +102,7 @@ body {
 	margin-left: 40%;
 	font-weight: 700;
 	opacity: .1;
-	margin-top:-10%;
+	margin-top:-15%;
 }
 .item15 {
 	zoom: 600%;
@@ -126,7 +126,6 @@ body {
 .item18 {
 	zoom: 2900%;
 	transform: rotate(180deg);
-	margin-left: 30%;
 	opacity: .04;
 	margin-top: -10%;
 }
@@ -170,4 +169,55 @@ body {
 	margin-left: 4170px;
 	transform: rotate(180deg);
 	opacity: .6;
+}
+.item25 {
+	zoom: 190%;
+	writing-mode: vertical-rl;
+	margin-left: 150%;
+	opacity: .7;
+}
+.item26 {
+	zoom: 160%;
+	margin-top: 110%;
+	opacity: .3;
+}
+.item27 {
+	zoom:100%;
+	margin-left: 190%;
+	writing-mode: vertical-rl;
+	opacity: .4;
+}
+.item28 {
+	zoom:235%;
+	writing-mode: vertical-rl;
+	margin-left: 140%;
+	opacity: .2;
+}
+.item29 {
+	zoom: 1400%;
+	writing-mode: vertical-rl;
+	margin-left: 140%;
+	opacity: .06;
+	font-weight: 700;
+}
+.item30 {
+	zoom: 1200%;
+	margin-top: 120%;
+	opacity: .08;
+	font-weight: 300;
+}
+.item31 {
+	zoom: 65%;
+	margin-top: 80%;
+	transform: rotate(180deg);
+
+}
+.item32 {
+	zoom:30%;
+	margin-top: 2080px;
+	margin-left: 4890px;
+	opacity: .6;
+}
+.item33 {
+	
 }
