@@ -1,8 +1,8 @@
 .container {
 	transform: rotate(90deg);
 	transform-origin: 100vw 100vh;
-/*	height: 200vh;*/
-	width: 200vw;
+/*	height: 200vh;
+	width: 200vw;*/
 }
 body {
 	font-family: "calluna", serif;
@@ -173,7 +173,7 @@ body {
 	opacity: .6;
 }
 .item25 {
-	font-size: 16pt;
+	zoom: 190%;
 	writing-mode: vertical-rl;
 	margin-left: 150%;
 	opacity: .7;
@@ -387,3 +387,11 @@ body {
 	writing-mode: vertical-rl;
 	opacity: .1;
 }
+.item59	{
+	zoom:3500%;
+	writing-mode: vertical-rl;
+	margin-left: 35px;
+	font-weight: 700;
+	transform: rotate(180deg);
+	opacity: .04;
+	}
