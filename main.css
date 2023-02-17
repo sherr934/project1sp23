@@ -95,7 +95,7 @@ body {
 .item14 {
 	zoom: 1800%;
 	writing-mode: vertical-rl;
-	margin-left: 40%;
+	margin-left: 50px;
 	font-weight: 700;
 	opacity: .1;
 }
@@ -169,18 +169,18 @@ body {
 .item25 {
 	zoom: 190%;
 	writing-mode: vertical-rl;
-	margin-left: 150%;
+	margin-left: 1150px;
 	opacity: .7;
 	z-index: 1;
 }
 .item26 {
 	zoom: 160%;
-	margin-top: 110%;
+	margin-top: 990px;
 	opacity: .3;
 }
 .item27 {
 	zoom:100%;
-	margin-left: 190%;
+	margin-left: 2700px;
 	writing-mode: vertical-rl;
 	opacity: .4;
 	z-index: 1;
@@ -188,7 +188,7 @@ body {
 .item28 {
 	zoom:235%;
 	writing-mode: vertical-rl;
-	margin-left: 140%;
+	margin-left: 860px;
 	opacity: .2;
 }
 .item29 {
@@ -206,7 +206,7 @@ body {
 }
 .item31 {
 	zoom: 65%;
-	margin-top: 80%;
+	margin-top: 1780px;
 	transform: rotate(180deg);
 
 }
