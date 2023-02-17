@@ -174,6 +174,7 @@ body {
 	writing-mode: vertical-rl;
 	margin-left: 150%;
 	opacity: .7;
+	z-index: 1;
 }
 .item26 {
 	zoom: 160%;
@@ -185,6 +186,7 @@ body {
 	margin-left: 190%;
 	writing-mode: vertical-rl;
 	opacity: .4;
+	z-index: 1;
 }
 .item28 {
 	zoom:235%;
@@ -221,6 +223,7 @@ body {
 	zoom: 204%;
 	margin-top: 1050px;
 	opacity: .4;
+	z-index: 1;
 }
 .item34 {
 	zoom: 204%;
