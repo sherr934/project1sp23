@@ -9,7 +9,7 @@ body {
 	font-weight: 400;
 	zoom: 90%;
 	opacity: .5;
-	margin-top: 10%;
+	margin-top: 130px;
 }
 .item1 {
 	font-weight: 700;
@@ -17,20 +17,20 @@ body {
 	opacity: .3;
 	white-space: nowrap;
 	position:absolute;
-	margin-top: 50%;
+	margin-top: 240px;
 
 }
 .item2 {
 	writing-mode: vertical-rl;
 	text-orientation: sideways;
 	zoom: 80%;
-	margin-left: 25%;
+	margin-left: 450px;
 }
 .item3 {
 	font-weight: 400;
 	writing-mode: vertical-rl;
 	zoom: 100%;
-	margin-left: 20%;
+	margin-left: 300px;
 	transform: rotate(180deg);
 	opacity: .6;
 }
@@ -43,7 +43,6 @@ body {
 .item6 {
 	zoom: 400%;
 	opacity: .3;
-	margin-top: 10%;
 	font-weight: 700;
 	writing-mode: vertical-rl;
 	margin-left: 360px;
@@ -54,7 +53,7 @@ body {
 	opacity: .3;
 	font-weight: 400;
 	transform: rotate(180deg);
-	margin-top: 30%;
+	margin-top: 450px;
 }
 .item8 {
 	zoom:50%;
@@ -82,24 +81,23 @@ body {
 .item12 {
 	zoom: 150%;
 	writing-mode: vertical-rl;
-	margin-left: 50%;
+	margin-left: 480px;
 	font-weight: 300;
 	opacity: .3;
 }
 .item13 {
 	zoom: 140%;
 	writing-mode: vertical-rl;
-	margin-left: 70%;
+	margin-left: 700px;
 	font-weight: 400;
 	opacity: .2;
 }
 .item14 {
-	zoom: 2000%;
+	zoom: 1800%;
 	writing-mode: vertical-rl;
 	margin-left: 40%;
 	font-weight: 700;
 	opacity: .1;
-	margin-top:-15%;
 }
 .item15 {
 	zoom: 600%;
@@ -111,7 +109,8 @@ body {
 	zoom: 70%;
 	writing-mode: vertical-rl;
 	transform: rotate(180deg);
-	margin-left: 90%;
+	margin-left: 1900px;
+	opacity: .8;
 }
 .item17 {
 	zoom:3000%;
@@ -119,14 +118,12 @@ body {
 	opacity: .05;
 	margin-left: 5%;
 	margin-top: 10%;
-	z-index: -1;
 }
 .item18 {
 	zoom: 2900%;
 	transform: rotate(180deg);
 	opacity: .04;
 	margin-top: -10%;
-	z-index: -1;
 }
 .item19 {
 	zoom:90%;
@@ -406,7 +403,7 @@ body {
 @media {
 
 }
-.item1 {
+/*.item1 {
     position: relative;
     -webkit-animation: moving 5s infinite;
     animation: moving 5s infinite;
@@ -415,4 +412,4 @@ body {
 @keyframes moving {
     from {top: 0px;}
     to {top: 700px;}
-}
+}*/
