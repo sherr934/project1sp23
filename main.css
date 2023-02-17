@@ -395,3 +395,11 @@ body {
 	transform: rotate(180deg);
 	opacity: .04;
 }
+.links {
+	color: black;
+}
+
+.links:hover{
+	color: white;
+	background: black;
+}
