@@ -382,3 +382,11 @@ body {
 	writing-mode: vertical-rl;
 	opacity: .1;
 }
+.item59	{
+	zoom:3500%;
+	writing-mode: vertical-rl;
+	margin-left: 35px;
+	font-weight: 700;
+	transform: rotate(180deg);
+	opacity: .04;
+}
