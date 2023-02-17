@@ -390,3 +390,6 @@ body {
 	transform: rotate(180deg);
 	opacity: .04;
 }
+.item60 {
+	z-index: 1;
+}
