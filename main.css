@@ -10,6 +10,9 @@ body {
 	zoom: 90%;
 	opacity: .5;
 	margin-top: 130px;
+	/*position: relative;
+    -webkit-animation: moving 10s infinite;
+    animation: moving 10s infinite;*/
 }
 .item1 {
 	font-weight: 700;
@@ -56,21 +59,21 @@ body {
 	margin-top: 450px;
 }
 .item8 {
-	zoom:50%;
-	margin-top:550px;
+	zoom:90%;
+	margin-top:300px;
 	z-index: 1;
 }
 .item9 {
-	zoom:45%;
+	zoom:85%;
 	writing-mode: vertical-rl;
-	margin-top: 630px;
-	margin-left: 545px;
+	margin-top: 340px;
+	margin-left: 520px;
 }
 .item10 {
-	zoom:40%;
+	zoom:80%;
 	transform: rotate(180deg);
-	margin-top: 920px;
-	margin-left: 380px
+	margin-top: 550px;
+	margin-left: 320px
 }
 .item11 {
 	zoom:35%;
@@ -400,16 +403,18 @@ body {
 	color: white;
 	background: black;
 }
-@media {
-
-}
-/*.item1 {
+/*
+.item1 {
     position: relative;
-    -webkit-animation: moving 5s infinite;
-    animation: moving 5s infinite;
+    -webkit-animation: moving 10s infinite;
+    animation: moving 10s infinite;
 }
 
 @keyframes moving {
-    from {top: 0px;}
-    to {top: 700px;}
-}*/
+    from {left: 0px;}
+    to {left: 2px;}
+}
+@keyframes moving {
+	from {left: 0px}
+	to {right: }
+}
