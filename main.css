@@ -28,6 +28,7 @@ body {
 	text-orientation: sideways;
 	zoom: 80%;
 	margin-left: 450px;
+	opacity: .3;
 }
 .item3 {
 	font-weight: 400;
@@ -35,7 +36,7 @@ body {
 	zoom: 100%;
 	margin-left: 300px;
 	transform: rotate(180deg);
-	opacity: .6;
+	opacity: .4;
 }
 .item5 {
 	zoom: 400%;
@@ -67,19 +68,19 @@ body {
 	zoom:85%;
 	writing-mode: vertical-rl;
 	margin-top: 340px;
-	margin-left: 520px;
+	margin-left: 335px;
 }
 .item10 {
 	zoom:80%;
 	transform: rotate(180deg);
 	margin-top: 550px;
-	margin-left: 320px
+	margin-left: 165px
 }
 .item11 {
-	zoom:35%;
+	zoom: 80%;
 	writing-mode: vertical-rl;
 	transform: rotate(180deg);
-	margin-left: 410px
+	margin-left: 140px
 }
 .item12 {
 	zoom: 150%;
