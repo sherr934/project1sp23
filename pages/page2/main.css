@@ -1,12 +1,11 @@
 .container {
 	transform: rotate(180deg);
 	transform-origin: 100vw 140vh;
-	height: 100vh;
-	width: 100vw;
+/*	height: 200vh;
+	width: 200vw;*/
 }
 body {
 	font-family: "calluna", serif;
-	font-style: normal;
 }
 .items {
 	position: absolute;
@@ -16,7 +15,10 @@ body {
 	font-weight: 400;
 	zoom: 90%;
 	opacity: .5;
-	margin-top: 10%;
+	margin-top: 130px;
+	/*position: relative;
+    -webkit-animation: moving 10s infinite;
+    animation: moving 10s infinite;*/
 }
 .item1 {
 	font-weight: 700;
@@ -24,21 +26,23 @@ body {
 	opacity: .3;
 	white-space: nowrap;
 	position:absolute;
-	margin-top: 50%;
+	margin-top: 240px;
 
 }
 .item2 {
 	writing-mode: vertical-rl;
 	text-orientation: sideways;
 	zoom: 80%;
-	margin-left: 25%;
+	margin-left: 450px;
+	opacity: .3;
 }
 .item3 {
 	font-weight: 400;
 	writing-mode: vertical-rl;
 	zoom: 100%;
-	margin-left: 20%;
+	margin-left: 300px;
 	transform: rotate(180deg);
+	opacity: .4;
 }
 .item5 {
 	zoom: 400%;
@@ -49,7 +53,6 @@ body {
 .item6 {
 	zoom: 400%;
 	opacity: .3;
-	margin-top: 10%;
 	font-weight: 700;
 	writing-mode: vertical-rl;
 	margin-left: 360px;
@@ -60,64 +63,64 @@ body {
 	opacity: .3;
 	font-weight: 400;
 	transform: rotate(180deg);
-	margin-top: 30%;
+	margin-top: 450px;
 }
 .item8 {
-	zoom:40%;
-	margin-top:800px;
+	zoom:90%;
+	margin-top:300px;
 	z-index: 1;
 }
 .item9 {
-	zoom:35%;
+	zoom:85%;
 	writing-mode: vertical-rl;
-	margin-top: 935px;
-	margin-left: 1530px;
+	margin-top: 340px;
+	margin-left: 335px;
 }
 .item10 {
-	zoom:30%;
+	zoom:80%;
 	transform: rotate(180deg);
-	margin-top: 1480px;
-	margin-left: 1470px
+	margin-top: 550px;
+	margin-left: 165px
 }
 .item11 {
-	zoom:25%;
+	zoom: 80%;
 	writing-mode: vertical-rl;
 	transform: rotate(180deg);
-	margin-left: 1750px
+	margin-left: 140px
 }
 .item12 {
 	zoom: 150%;
 	writing-mode: vertical-rl;
-	margin-left: 50%;
+	margin-left: 480px;
 	font-weight: 300;
 	opacity: .3;
 }
 .item13 {
 	zoom: 140%;
 	writing-mode: vertical-rl;
-	margin-left: 70%;
+	margin-left: 700px;
 	font-weight: 400;
 	opacity: .2;
 }
 .item14 {
-	zoom: 2000%;
+	zoom: 1800%;
 	writing-mode: vertical-rl;
-	margin-left: 40%;
+	margin-left: 50px;
 	font-weight: 700;
 	opacity: .1;
-	margin-top:-15%;
 }
 .item15 {
 	zoom: 600%;
 	transform: rotate(180deg);
-	margin-top: 40%;
+	margin-top: 90px;
 	opacity: .4;
 }
 .item16 {
 	zoom: 70%;
 	writing-mode: vertical-rl;
 	transform: rotate(180deg);
-	margin-left: 90%;
+	margin-left: 1900px;
+	opacity: .8;
 }
 .item17 {
 	zoom:3000%;
@@ -176,18 +179,18 @@ body {
 .item25 {
 	zoom: 190%;
 	writing-mode: vertical-rl;
-	margin-left: 150%;
+	margin-left: 1150px;
 	opacity: .7;
 	z-index: 1;
 }
 .item26 {
 	zoom: 160%;
-	margin-top: 110%;
+	margin-top: 990px;
 	opacity: .3;
 }
 .item27 {
 	zoom:100%;
-	margin-left: 190%;
+	margin-left: 2700px;
 	writing-mode: vertical-rl;
 	opacity: .4;
 	z-index: 1;
@@ -195,7 +198,7 @@ body {
 .item28 {
 	zoom:235%;
 	writing-mode: vertical-rl;
-	margin-left: 140%;
+	margin-left: 860px;
 	opacity: .2;
 }
 .item29 {
@@ -213,7 +216,7 @@ body {
 }
 .item31 {
 	zoom: 65%;
-	margin-top: 80%;
+	margin-top: 1780px;
 	transform: rotate(180deg);
 
 }
@@ -406,4 +409,19 @@ body {
 .links:hover{
 	color: white;
 	background: black;
+}
+/*
+.item1 {
+    position: relative;
+    -webkit-animation: moving 10s infinite;
+    animation: moving 10s infinite;
+}
+
+@keyframes moving {
+    from {left: 0px;}
+    to {left: 2px;}
+}
+@keyframes moving {
+	from {left: 0px}
+	to {right: }
 }
