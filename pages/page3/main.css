@@ -111,9 +111,10 @@ body {
 }
 .item15 {
 	zoom: 600%;
-	transform: rotate(180deg);
-	margin-top: 90px;
+	margin-left: 90px;
 	opacity: .4;
+	writing-mode: vertical-rl;
+	position: fixed;
 }
 .item16 {
 	zoom: 70%;
@@ -131,9 +132,10 @@ body {
 }
 .item18 {
 	zoom: 2900%;
-	transform: rotate(180deg);
 	opacity: .04;
-	margin-top: -10%;
+	margin-left: -10%;
+	writing-mode: vertical-rl;
+	position: fixed;
 }
 .item19 {
 	zoom:90%;
@@ -203,10 +205,10 @@ body {
 }
 .item29 {
 	zoom: 1400%;
-	writing-mode: vertical-rl;
-	margin-left: 140%;
+	margin-top: 40%;
 	opacity: .06;
 	font-weight: 700;
+	position: fixed;
 }
 .item30 {
 	zoom: 1200%;
@@ -415,6 +417,16 @@ body {
 		transform-origin: 330vw 230vh;
 	}
 }
+.item60 {
+	background-color: black;
+	color: white;
+	position: fixed;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 18pt;
+	opacity: .6;
+}
+
 /*
 .item1 {
     position: relative;

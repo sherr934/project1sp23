@@ -409,8 +409,15 @@ body {
 	color: white;
 	background: black;
 }
-
-
+.item60 {
+	background-color: black;
+	color: white;
+	position: fixed;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 18pt;
+	opacity: .6;
+}
 /*.item1 {
     position: relative;
     -webkit-animation: moving 20s infinite;

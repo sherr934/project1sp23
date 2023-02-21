@@ -105,9 +105,10 @@ body {
 .item14 {
 	zoom: 1800%;
 	writing-mode: vertical-rl;
-	margin-left: 50px;
+	margin-left: 60px;
 	font-weight: 700;
 	opacity: .1;
+	position: fixed;
 }
 .item15 {
 	zoom: 600%;
@@ -185,8 +186,10 @@ body {
 }
 .item26 {
 	zoom: 160%;
-	margin-top: 990px;
+	margin-top: 400px;
 	opacity: .3;
+	transform: rotate(180deg);
+	position: fixed;
 }
 .item27 {
 	zoom:100%;
@@ -414,6 +417,15 @@ body {
 	.container {
 		transform-origin: 365vw 163vh;
 	}
+}
+.item60 {
+	background-color: black;
+	color: white;
+	position: fixed;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 18pt;
+	opacity: .6;
 }
 /*
 .item1 {
