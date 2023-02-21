@@ -410,6 +410,11 @@ body {
 	color: white;
 	background: black;
 }
+@media (max-width: 768px) {
+	.container {
+		transform-origin: 290vw 160vh;
+	}
+}
 /*
 .item1 {
     position: relative;

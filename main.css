@@ -1,5 +1,8 @@
 body {
 	font-family: "calluna", serif;
+	width: 100vw;
+	height: 200vh;
+	scroll-padding-bottom: 0;
 }
 .items {
 	position: absolute;
@@ -19,7 +22,6 @@ body {
 	zoom: 300%;
 	opacity: .3;
 	white-space: nowrap;
-	position:absolute;
 	margin-top: 240px;
 
 }
@@ -43,6 +45,7 @@ body {
 	opacity: .3;
 	margin-top: 45px;
 	font-weight: 700;
+	position: fixed;
 }
 .item6 {
 	zoom: 400%;
@@ -88,6 +91,7 @@ body {
 	margin-left: 480px;
 	font-weight: 300;
 	opacity: .3;
+	position: fixed;
 }
 .item13 {
 	zoom: 140%;
@@ -108,6 +112,7 @@ body {
 	transform: rotate(180deg);
 	margin-top: 90px;
 	opacity: .4;
+	position: fixed
 }
 .item16 {
 	zoom: 70%;
@@ -398,24 +403,20 @@ body {
 }
 .links {
 	color: black;
+    z-index: 2;
 }
 
 .links:hover{
 	color: white;
 	background: black;
 }
-/*
-.item1 {
+
+/*.item1 {
     position: relative;
-    -webkit-animation: moving 10s infinite;
-    animation: moving 10s infinite;
+    -webkit-animation: moving 20s infinite;
 }
 
 @keyframes moving {
-    from {left: 0px;}
-    to {left: 2px;}
-}
-@keyframes moving {
-	from {left: 0px}
-	to {right: }
-}
+	from {top: 0px}
+	to {top: 700px}
+}*/
