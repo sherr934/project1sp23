@@ -10,6 +10,7 @@ body {
 .items {
 	position: absolute;
 	white-space: nowrap;
+	z-index: -1;
 }
 .item4 {
 	font-weight: 400;
@@ -209,6 +210,7 @@ body {
 	opacity: .06;
 	font-weight: 700;
 	position: fixed;
+	z-index: -1;
 }
 .item30 {
 	zoom: 1200%;
@@ -425,20 +427,4 @@ body {
 	margin-left: 5px;
 	font-size: 18pt;
 	opacity: .6;
-}
-
-/*
-.item1 {
-    position: relative;
-    -webkit-animation: moving 10s infinite;
-    animation: moving 10s infinite;
-}
-
-@keyframes moving {
-    from {left: 0px;}
-    to {left: 2px;}
-}
-@keyframes moving {
-	from {left: 0px}
-	to {right: }
 }

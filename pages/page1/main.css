@@ -10,6 +10,8 @@ body {
 .items {
 	position: absolute;
 	white-space: nowrap;
+	z-index: -1;
+
 }
 .item4 {
 	font-weight: 400;
