@@ -2,7 +2,6 @@ body {
 	font-family: "calluna", serif;
 	width: 100vw;
 	height: 200vh;
-	scroll-padding-bottom: 0;
 }
 .items {
 	position: absolute;
@@ -410,6 +409,7 @@ body {
 	color: white;
 	background: black;
 }
+
 
 /*.item1 {
     position: relative;
