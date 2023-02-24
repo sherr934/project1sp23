@@ -1,6 +1,11 @@
 body {
 	font-family: "calluna", serif;
 }
+@media (max-width: 768px) {
+	.container {
+		margin-bottom: -10%;
+	}
+}
 .items {
 	position: absolute;
 	white-space: nowrap;
