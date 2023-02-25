@@ -6,6 +6,8 @@
 }
 body {
 	font-family: "calluna", serif;
+	margin: auto;
+	padding: 0;
 }
 .items {
 	position: absolute;
