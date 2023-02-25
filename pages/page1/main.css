@@ -1,8 +1,6 @@
 .container {
 	transform: rotate(90deg);
 	transform-origin: 80vw 130vh;
-/*	height: 200vh;
-	width: 200vw;*/
 }
 body {
 	font-family: "calluna", serif;
