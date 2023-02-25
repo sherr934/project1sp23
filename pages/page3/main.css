@@ -32,7 +32,7 @@ body {
 
 }
 .item2 {
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	text-orientation: sideways;
 	zoom: 80%;
 	margin-left: 450px;
@@ -40,7 +40,7 @@ body {
 }
 .item3 {
 	font-weight: 400;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	zoom: 100%;
 	margin-left: 300px;
 	transform: rotate(180deg);
@@ -56,7 +56,7 @@ body {
 	zoom: 400%;
 	opacity: .3;
 	font-weight: 700;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	margin-left: 360px;
 	margin-top: 60px;
 }
@@ -74,7 +74,7 @@ body {
 }
 .item9 {
 	zoom:85%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	margin-top: 340px;
 	margin-left: 335px;
 }
@@ -86,27 +86,27 @@ body {
 }
 .item11 {
 	zoom: 80%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform: rotate(180deg);
 	margin-left: 140px
 }
 .item12 {
 	zoom: 150%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	margin-left: 480px;
 	font-weight: 300;
 	opacity: .3;
 }
 .item13 {
 	zoom: 140%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	margin-left: 700px;
 	font-weight: 400;
 	opacity: .2;
 }
 .item14 {
 	zoom: 1800%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	margin-left: 50px;
 	font-weight: 700;
 	opacity: .1;
@@ -115,19 +115,19 @@ body {
 	zoom: 600%;
 	margin-left: 90px;
 	opacity: .4;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	position: fixed;
 }
 .item16 {
 	zoom: 70%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform: rotate(180deg);
 	margin-left: 1900px;
 	opacity: .8;
 }
 .item17 {
 	zoom:3000%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	opacity: .05;
 	margin-left: 5%;
 	margin-top: 10%;
@@ -136,7 +136,7 @@ body {
 	zoom: 2900%;
 	opacity: .04;
 	margin-left: -10%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	position: fixed;
 }
 .item19 {
@@ -150,7 +150,7 @@ body {
 	margin-left: 80px;
 	margin-top: 470px;
 	opacity: .6;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform: rotate(180deg);
 }
 .item21 {
@@ -163,7 +163,7 @@ body {
 	margin-top: 1300px;
 	margin-left: 3480px;
 	opacity:.6;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 }
 .item23 {
 	zoom: 40%;
@@ -174,7 +174,7 @@ body {
 }
 .item24 {
 	zoom:35%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	margin-top: 1800px;
 	margin-left: 4170px;
 	transform: rotate(180deg);
@@ -182,7 +182,7 @@ body {
 }
 .item25 {
 	zoom: 190%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	margin-left: 1150px;
 	opacity: .7;
 	z-index: 1;
@@ -195,13 +195,13 @@ body {
 .item27 {
 	zoom:100%;
 	margin-left: 2700px;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	opacity: .4;
 	z-index: 1;
 }
 .item28 {
 	zoom:235%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	margin-left: 860px;
 	opacity: .2;
 }
@@ -259,7 +259,7 @@ body {
 .item37 {
 	zoom: 140%;
 	margin-top: 1418px;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	margin-left: 608px;
 	opacity: .4;
 }
@@ -272,7 +272,7 @@ body {
 	zoom: 120%;
 	margin-top: 794px;
 	opacity: .6;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	margin-left: 1465px;
 }
 .item40 {
@@ -286,7 +286,7 @@ body {
 .item41 {
 	zoom: 90%;
 	margin-left: 2850px;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform: rotate(180deg);
 	opacity: .5;
 	font-weight: 700;
@@ -300,14 +300,14 @@ body {
 }
 .item43 {
 	zoom: 140%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform: rotate(180deg);
 	margin-left: 1185px;
 	opacity: .4;
 }
 .item44 {
 	zoom: 440%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform: rotate(180deg);
 	margin-left: 560px;
 	opacity: .3;
@@ -326,7 +326,7 @@ body {
 .item47 {
 	zoom: 50%;
 	margin-left: 1680px;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform: rotate(180deg);
 	opacity: .5;
 }
@@ -339,7 +339,7 @@ body {
 .item49 {
 	zoom: 80%;
 	margin-left: 3530px;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	opacity: .3;
 }
 .item50 {
@@ -349,7 +349,7 @@ body {
 }
 .item51 {
 	zoom: 50%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	margin-top: 3410px;
 	margin-left: 3260px;
 	opacity: .6;
@@ -364,7 +364,7 @@ body {
 	zoom: 40%;
 	margin-top: 4100px;
 	margin-left: 4900px;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	transform: rotate(180deg);
 	opacity: .3;
 }
@@ -379,7 +379,7 @@ body {
 	zoom: 40%;
 	margin-top: 4100px;
 	margin-left: 4665px;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	opacity: .3;
 }
 .item56 {
@@ -396,12 +396,12 @@ body {
 .item58 {
 	zoom: 295%;
 	margin-left: 400px;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	opacity: .1;
 }
 .item59	{
 	zoom:3500%;
-	writing-mode: vertical-rl;
+	writing-mode: vertical-lr;
 	margin-left: 35px;
 	font-weight: 700;
 	transform: rotate(180deg);
