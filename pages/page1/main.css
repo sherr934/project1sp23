@@ -415,6 +415,9 @@ body {
 @media (max-width: 768px) {
 	.container {
 		transform-origin: 290vw 160vh;
+		height: 20000px;
+		overflow-y: hidden;
+	
 	}
 }
 .item60 {
