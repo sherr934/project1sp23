@@ -3,8 +3,18 @@ body {
 	margin: auto;
 	padding: 0;
 }
-@media (max-width: 768px) {
 
+
+@media (max-width: 768px) {
+	.item60 {
+		font-size: 12pt;
+	}
+	.container {
+	display: block;
+	height: 200vh;
+	position: relative;
+	overflow-y: hidden;
+}
 }
 .items {
 	position: absolute;
@@ -417,6 +427,6 @@ body {
 	position: fixed;
 	margin-top: 5px;
 	margin-left: 5px;
-	font-size: 18pt;
+	font-size: 20pt;
 	opacity: .6;
 }

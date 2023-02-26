@@ -1,7 +1,6 @@
 .container {
 	transform: rotate(-90deg);
 	transform-origin:100vw 190vh;
-	border: 20px solid red;
 /*	height: 200vh;
 	width: 200vw;*/
 }
@@ -431,4 +430,5 @@ body {
 	margin-left: 5px;
 	font-size: 18pt;
 	opacity: .6;
+	z-index: 1;
 }
