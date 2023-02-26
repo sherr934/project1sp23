@@ -414,8 +414,10 @@ body {
 }
 @media (max-width: 768px) {
 	.container {
+		display: block;
+		position: relative;
 		transform-origin: 290vw 160vh;
-		height: 20000px;
+		height: 20000vh;
 		overflow-y: hidden;
 	
 	}
