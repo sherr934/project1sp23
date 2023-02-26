@@ -419,6 +419,10 @@ body {
 @media (max-width: 768px) {
 	.container {
 		transform-origin: 365vw 163vh;
+		display: block;
+		position: relative;
+		height: 200vh;
+		overflow-y: hidden;
 	}
 }
 .item60 {
@@ -429,19 +433,4 @@ body {
 	margin-left: 5px;
 	font-size: 18pt;
 	opacity: .6;
-}
-/*
-.item1 {
-    position: relative;
-    -webkit-animation: moving 10s infinite;
-    animation: moving 10s infinite;
-}
-
-@keyframes moving {
-    from {left: 0px;}
-    to {left: 2px;}
-}
-@keyframes moving {
-	from {left: 0px}
-	to {right: }
 }

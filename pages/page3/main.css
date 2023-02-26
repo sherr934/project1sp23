@@ -20,9 +20,6 @@ body {
 	zoom: 90%;
 	opacity: .5;
 	margin-top: 130px;
-	/*position: relative;
-    -webkit-animation: moving 10s infinite;
-    animation: moving 10s infinite;*/
 }
 .item1 {
 	font-weight: 700;
@@ -420,6 +417,10 @@ body {
 @media (max-width: 768px) {
 	.container {
 		transform-origin: 330vw 230vh;
+		display: block;
+		position: relative;
+		height: 200vh;
+		overflow-y: hidden;
 	}
 }
 .item60 {
