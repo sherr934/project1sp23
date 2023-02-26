@@ -4,17 +4,26 @@ body {
 	padding: 0;
 }
 
-
-@media (max-width: 768px) {
+.item60 {
+	background-color: black;
+	color: white;
+	position: fixed;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 20pt;
+	opacity: .6;
+}
+@media screen and (max-width: 768px) {
 	.item60 {
-		font-size: 12pt;
+		font-size: 18pt;
 	}
 	.container {
-	display: block;
-	height: 200vh;
-	position: relative;
-	overflow-y: hidden;
-}
+		display: block;
+		height: 250vh;
+		position: relative;
+		overflow-y: hidden;
+	}
 }
 .items {
 	position: absolute;
@@ -420,13 +429,4 @@ body {
 .links:hover{
 	color: white;
 	background: black;
-}
-.item60 {
-	background-color: black;
-	color: white;
-	position: fixed;
-	margin-top: 5px;
-	margin-left: 5px;
-	font-size: 20pt;
-	opacity: .6;
 }
