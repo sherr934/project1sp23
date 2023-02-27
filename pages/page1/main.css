@@ -11,7 +11,6 @@ body {
 	position: absolute;
 	white-space: nowrap;
 	z-index: -1;
-
 }
 .item4 {
 	font-weight: 400;
@@ -412,19 +411,22 @@ body {
 	color: white;
 	background: black;
 }
-@media (max-width: 768px) {
-	.container {
-		transform-origin: 290vw 160vh;
-		height: 30vh;
-		width: 10vw;
-	}
-}
 .item60 {
 	background-color: black;
 	color: white;
 	position: fixed;
 	margin-top: 5px;
 	margin-left: 5px;
-	font-size: 18pt;
+	font-size: 20pt;
 	opacity: .6;
+}
+@media (max-width: 768px) {
+	.container {
+		transform-origin: 290vw 160vh;
+		height: 30vh;
+		width: 250vw;
+	}
+	.item60 {
+		font-size: 18pt;
+	}
 }
